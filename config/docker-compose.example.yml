@@ -1,0 +1,24 @@
+services:
+  4get:
+    image: luuul/4get:latest
+    container_name: 4get
+    restart: unless-stopped
+
+    ports:
+      - "9090:80"
+
+    environment:
+      - FOURGET_SERVER_NAME=MeuServidor
+
+    volumes:
+      - ./custom/favicon.ico:/var/www/html/4get/favicon.ico:ro
+      - ./custom/banner/4get-default.png:/var/www/html/4get/banner/4get-default.png:ro
+      - ./custom/style.css:/var/www/html/4get/static/style.css:ro
+      - ./custom/wallpaper.jpg:/var/www/html/4get/wallpaper.jpg:ro
+      
+      
+      
+      
+      
+      
+      
