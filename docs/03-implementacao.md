@@ -353,6 +353,16 @@ A configuração fica concentrada no Docker Compose e os arquivos personalizados
 
 Para reproduzir a solução em outro ambiente, é necessário:
 
+### Observação sobre os materiais visuais
+
+Os arquivos de identidade visual utilizados no ambiente original da TuxFreeTech não fazem parte deste repositório.
+
+Para reproduzir a implementação, utilize seus próprios materiais ou os exemplos genéricos disponíveis na pasta `custom/`.
+
+A estrutura técnica permanece a mesma. O que muda são os arquivos de identidade visual utilizados em cada instalação.
+
+A proposta deste projeto é compartilhar o conhecimento e a técnica de personalização, sem distribuir os materiais de identidade visual da TuxFreeTech.
+
 1. possuir uma instalação funcional do 4get;
 2. criar uma pasta para os arquivos personalizados;
 3. preparar o favicon;
