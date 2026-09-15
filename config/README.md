@@ -1,36 +1,38 @@
 # Configuração
 
-Esta pasta contém arquivos de exemplo relacionados à configuração do projeto.
+Esta pasta contém arquivos de configuração de exemplo para reproduzir a personalização do 4get.
 
-## docker-compose.example.yml
+## Docker Compose
 
-O arquivo `docker-compose.example.yml` apresenta uma estrutura básica de Docker Compose utilizada para reproduzir a personalização do 4get.
+O arquivo `docker-compose.example.yml` apresenta uma configuração de exemplo baseada na estrutura utilizada no projeto.
 
-Ele contém:
+Ele demonstra:
 
-- imagem do 4get;
-- nome do container;
+- definição do container;
 - porta de acesso;
-- variável para personalização do nome;
-- arquivos personalizados utilizados pelo projeto.
+- nome personalizado do servidor;
+- montagem dos arquivos de personalização;
+- uso de arquivos externos ao container.
 
 Os valores apresentados são exemplos e devem ser adaptados ao ambiente onde o 4get será instalado.
 
-## Arquivos personalizados
+## Arquivo de exemplo
 
-Os arquivos utilizados no ambiente original da TuxFreeTech não fazem parte deste repositório.
+O arquivo:
 
-Para reproduzir a ideia, utilize seus próprios:
+docker-compose.example.yml
 
-- favicon;
-- banner;
-- wallpaper;
-- arquivo CSS.
+pode ser utilizado como base para criar a configuração do próprio ambiente.
 
-Exemplos genéricos desses materiais estão disponíveis na pasta `custom`.
+Antes de iniciar o container, verifique principalmente:
+
+- caminho da pasta de personalização;
+- porta utilizada;
+- nome desejado para o servidor;
+- arquivos que serão montados no container.
 
 ## Importante
 
-O arquivo de exemplo não é uma cópia da configuração privada utilizada no ambiente original.
+Este arquivo não é uma cópia da configuração privada utilizada no servidor TuxFreeTech.
 
-A proposta é compartilhar a estrutura necessária para reproduzir a técnica sem expor configurações ou materiais proprietários da TuxFreeTech.
+A intenção é fornecer uma estrutura genérica que permita entender e reproduzir a técnica sem depender da configuração específica do ambiente original.
