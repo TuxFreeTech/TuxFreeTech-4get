@@ -140,6 +140,20 @@ No fim, a melhor solução não é necessariamente a mais elaborada.
 
 ---
 
+## Materiais visuais e identidade
+
+Este projeto disponibiliza publicamente seu código, sua documentação e os métodos utilizados para personalizar o 4get.
+
+Os elementos de identidade visual da TuxFreeTech utilizados durante o desenvolvimento, incluindo logotipo, banners, wallpapers e outras artes, não fazem parte do conteúdo aberto deste repositório e não são disponibilizados para redistribuição ou reutilização.
+
+Esses materiais fazem parte da identidade visual da TuxFreeTech e foram produzidos em colaboração com nosso designer. Por respeito ao trabalho realizado, os arquivos originais não são publicados como assets para download.
+
+A proposta deste projeto é diferente: permitir que qualquer pessoa reproduza a técnica utilizando sua própria identidade visual.
+
+Quando necessário, exemplos visuais genéricos serão utilizados para demonstrar a estrutura e o funcionamento sem expor os materiais originais da TuxFreeTech.
+
+> Compartilhamos o conhecimento necessário para reproduzir o trabalho, não necessariamente os materiais proprietários utilizados nele.
+
 ## Créditos
 
 Este projeto utiliza o [4get](https://github.com/4get) como base.
